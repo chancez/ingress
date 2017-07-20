@@ -29,6 +29,7 @@ rules:
       - ""
     resources:
       - nodes
+      - namespaces
     verbs:
       - get
   - apiGroups:
@@ -73,6 +74,7 @@ rules:
       - configmaps
       - pods
       - secrets
+      - namespaces
     verbs:
       - get
   - apiGroups:
